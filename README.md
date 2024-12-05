@@ -1,22 +1,29 @@
-# Konverter Mata Uang
+# 💱 Konverter Mata Uang
 
-Aplikasi desktop sederhana untuk mengkonversi mata uang menggunakan Python dan Tkinter.
+Aplikasi web sederhana untuk mengkonversi mata uang menggunakan Python dan Streamlit.
 
-## Fitur
+## ✨ Fitur
 
-- Konversi antara 50+ mata uang internasional
-- Antarmuka pengguna yang ramah dan mudah digunakan
+- Konversi real-time antara 50+ mata uang internasional
+- Antarmuka web yang modern dan responsif
 - Update rate mata uang otomatis setiap jam
 - Tombol tukar cepat antar mata uang
 - Format angka dengan pemisah ribuan
-- Penanganan error yang baik
+- Tampilan rate konversi
+- Penanganan error yang informatif
 
-## Persyaratan
+## 🚀 Demo
+
+Aplikasi dapat diakses di: [Currency Converter App](https://currency-converter-wiraai.streamlit.app)
+
+## 🛠️ Teknologi yang Digunakan
 
 - Python 3.x
-- Tkinter (biasanya sudah terinstall dengan Python)
-- Requests library
+- Streamlit
+- ExchangeRate-API
+- Pandas
+- Python-dotenv
 
-## Instalasi
+## 📦 Instalasi
 
-1. Clone repository ini:
+1. Clone repository ini: 

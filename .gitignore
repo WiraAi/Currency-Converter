@@ -37,3 +37,11 @@ Thumbs.db
 
 # Configuration
 config.py
+.env
+*.env
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
