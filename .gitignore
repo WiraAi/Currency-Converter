@@ -45,3 +45,6 @@ config.py
 
 # Logs
 *.log
+
+# Streamlit Secrets
+.streamlit/secrets.toml

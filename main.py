@@ -1,19 +1,14 @@
 # main.py
 from ui import CurrencyConverterUI
 from currency_converter import CurrencyConverter
-import os
-from dotenv import load_dotenv
 import streamlit as st
 
 def main():
-    # Load environment variables
-    load_dotenv()
-    
-    # Get API key from environment variable
-    api_key = os.getenv('API_KEY')
+    # Get API key from Streamlit secrets
+    api_key = st.secrets["API_KEY"]
     
     if not api_key:
-        st.error("API key tidak ditemukan. Pastikan file .env berisi API_KEY yang valid.")
+        st.error("API key tidak ditemukan dalam secrets.")
         return
         
     converter = CurrencyConverter(api_key)

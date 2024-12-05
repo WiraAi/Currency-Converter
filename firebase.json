@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "currency-converter",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+} 
